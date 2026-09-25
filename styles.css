@@ -1,0 +1,107 @@
+/* =========================
+   General site styling
+   ========================= */
+ 
+body {
+  color: #26374a;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+ 
+h1, h2, h3 {
+  color: #26374a;
+  font-weight: 700;
+}
+ 
+p {
+  margin-bottom: 1rem;
+}
+ 
+a {
+  color: #2f6fa8;
+  text-decoration: underline;
+}
+ 
+a:hover {
+  color: #1d4f7a;
+}
+ 
+ 
+/* =========================
+   Navigation bar
+   ========================= */
+ 
+.navbar {
+  background-color: #26374a !important;
+}
+ 
+.navbar a,
+.navbar-brand,
+.navbar-title {
+  color: white !important;
+}
+ 
+.navbar a:hover {
+  color: #d7e5f5 !important;
+}
+ 
+ 
+/* =========================
+   Homepage hero/banner
+   ========================= */
+ 
+.hero-banner {
+  background: #f3f5f7;
+  border-left: 8px solid #26374a;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+}
+ 
+.hero-title {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+ 
+.hero-subtitle {
+  font-size: 1.2rem;
+  max-width: 850px;
+}
+ 
+ 
+/* =========================
+   Cards
+   ========================= */
+ 
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+ 
+.info-card {
+  border: 1px solid #d6d9dc;
+  border-radius: 6px;
+  padding: 1.25rem;
+  background: #ffffff;
+}
+ 
+.info-card h3 {
+  margin-top: 0;
+}
+ 
+ 
+/* =========================
+   Status or note boxes
+   ========================= */
+ 
+.status-box {
+  border: 1px solid #d6d9dc;
+  background: #f8f9fa;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 6px;
+}
+ 
