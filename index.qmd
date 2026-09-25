@@ -1,0 +1,11 @@
+--- 
+title: "Home" 
+--- 
+ 
+::: {.hero-banner} 
+
+<div class="hero-title">Poisoning treatment-test</div> 
+ 
+<div class="hero-subtitle"> 
+A project to find the best available treatment for poisoning. 
+</div>
